@@ -1,0 +1,3 @@
+<li class="header">Main Menu</li>
+<li <?php if(isset($m_pengaturan)) { ?>class = "active" <?php } ?>><a href='<?php echo site_url('data_absen/pengaturan')?>'><i class="fa fa-circle-o"></i> <span>Pengaturan</span></a></li>
+<li <?php if(isset($m_data_absen)) { ?>class = "active" <?php } ?>><a href='<?php echo site_url('data_absen/data_absen')?>'><i class="fa fa-circle-o"></i> <span>Data Absen</a></span></li>

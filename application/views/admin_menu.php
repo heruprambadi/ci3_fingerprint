@@ -1,0 +1,3 @@
+<li class="header">Admin Menu</li>
+<li <?php if(isset($m_auth_index)) { ?>class = "active" <?php } ?>><a href='<?php echo site_url('auth/index')?>'><i class="fa fa-circle-o"></i> <span>User</span></a></li>
+<li <?php if(isset($m_change_password)) { ?>class = "active" <?php } ?>><a href='<?php echo site_url('auth/change_password')?>'><i class="fa fa-circle-o"></i> <span>Ganti Password</a></span></li>

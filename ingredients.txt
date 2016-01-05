@@ -1,0 +1,6 @@
+By : heruprambadi.com
+
+- Codeigniter 3.0.3
+- Admin LTE 2.3.0
+- IonAuth 2
+- GroceryCrud 1.5.2
